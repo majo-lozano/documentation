@@ -11,8 +11,6 @@ The name "Qiskit" is a general term referring to a collection of software for ex
 
 In addition, many open-source projects are part of the broader Qiskit ecosystem. These software tools are not part of Qiskit itself, but rather interface with Qiskit and can provide valuable additional functionality.
 
-![All Qiskit pattern steps are shown (Map the problem, Optimize for hardware, Execute on hardware, and Post-process results). All steps, except for 'Execute on hardware', use the Qiskit SDK. 'Optimizing for hardware' additionally uses the Qiskit Transpiler Service.  'Executing on hardware' uses only the Qiskit Runtime Service.](/docs/images/qiskit-patterns/patterns.svg)
-
 IBM is committed to the responsible development of quantum computing. Learn more and review our responsible quantum principles in the [Responsible quantum computing](/docs/responsible-quantum-computing) topic.
 
 ## The Qiskit SDK
@@ -101,28 +99,6 @@ pip install qiskit-ibm-transpiler
 ## Qiskit addons
 
 Qiskit addons are a collection of research capabilities for utility-scale algorithm discovery. These capabilities build upon Qiskit’s performant foundation of tools for creating and running quantum algorithms. Addons are modular software components that plug into a workflow to scale or design new quantum algorithms. To learn more about the set of available Qiskit addons and how to get started using them, visit the [documentation](/docs/guides/addons).
-
-There are a number of addons depending on what research capability you are interested in. Each of them can be installed with pip.
-
-[Sample-based quantum diagonalization (SQD)](/docs/guides/qiskit-addons-sqd):
-```bash
-pip install qiskit-addon-sqd
-```
-
-[Approximate quantum compilation (AQC)](/docs/guides/qiskit-addons-aqc):
-```bash
-pip install qiskit-addon-aqc-tensor[quimb-jax]
-```
-
-[Operator backpropagation (OBP)](/docs/guides/qiskit-addons-obp):
-```bash
-pip install qiskit-addon-obp
-```
-
-[Multi-product formulas (MPF)](/docs/guides/qiskit-addons-mpf):
-```bash
-pip install qiskit-addon-mpf
-```
 
 ## The Qiskit ecosystem
 
